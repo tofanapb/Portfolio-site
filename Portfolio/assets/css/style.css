@@ -1,0 +1,383 @@
+/*=============
+Main css
+==============*/
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+}
+p {
+    margin: 0;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img {
+    max-width: 100%;
+}
+/*=============
+scrollbar css
+==============*/
+::-moz-selection {
+	background: #f1f1f1;
+}
+
+::selection {
+	background:#f1f1f1;
+}
+
+::-webkit-scrollbar {
+	width: .7rem;
+}
+
+::-webkit-scrollbar-track {
+	background:#f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #fe481c;
+	height: 6rem;
+}
+/*=============all section css==============*/
+/*=============
+header css
+==============*/
+.logo a {
+    color: #000;
+}
+
+.logo a h2 b {
+    color: #fe481c;
+}
+
+.main_menu ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.main_menu {
+    text-align: center;
+}
+
+.main_menu ul li a {
+    color: #000;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+}
+
+.main_menu ul li a:hover {
+    color: #fe481c;
+}
+
+.header_right {
+    text-align: right;
+}
+
+a.boxed_btn {
+    color: #000;
+    font-weight: 600;
+    border: 1px solid #000;
+    padding: 8px 20px;
+    transition: all .5s ease-in-out;
+    display: inline-block;
+}
+
+.logo a h2 {
+    margin: 0;
+    font-size: 30px;
+}
+
+a.boxed_btn:hover {
+    color: #fff;
+    background: #000;
+}
+
+header#header_area {
+    padding: 20px 0;
+    border-bottom: 1px solid #f5f5f5;
+}
+/*=============
+hero css
+==============*/
+.hero_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hero_right {
+    background-position: center;
+    width: 50%;
+    background: #ded1c1;
+    padding: 50px 50px 0 50px;
+    background-size: cover;
+}
+
+.hero_left_content {
+    padding-top: 50px;
+    width: 50%;
+}
+
+.hero_area_Top_item h1 {
+    font-size: 46px;
+}
+
+.hero_area_Top_item h1 span {
+    background: #5562ff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 16px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.hero_area_Top_item p {
+    margin: 30px 0;
+    padding-right: 205px;
+}
+
+.hero_btn ul li {
+    display: inline-block;
+}
+
+.hero_btn ul li:first-child a {
+    color: #fff;
+    background: #fe481c;
+    font-weight: 600;
+    padding: 8px 20px;
+    display: block;
+    transition: all .5s ease-in-out;
+}
+
+.hero_btn ul li:last-child a {
+    color: #000;
+    margin-left: 10px;
+    border: 1px solid #000;
+    padding: 8px 20px;
+    font-weight: 600;
+    transition: all .5s ease-in-out;
+}
+
+.hero_btn ul li:last-child a:hover {
+    color: #fff;
+    background: #000;
+}
+
+.hero_btn ul li:first-child a:hover {
+    background: #000;
+}
+
+.hero_area_item {
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hero_list_item span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.hero_list_item p {
+    margin: 0;
+    padding-right: 0;
+    font-weight: 500;
+}
+
+.hero_list_item {
+    width: 48%;
+}
+
+.hero_bottom_bg {
+    display: flex;
+    justify-content: space-between;
+    background: #262626;
+    color: #fff;
+    padding: 30px;
+    align-items: center;
+}
+
+.hero_bottom_left a {background: #ffd100;color: #000;display: inline-block;padding: 8px 20px;font-weight: 600;}
+
+.hero_bottom_left a:hover {
+    background: #fff;
+}
+
+.hero_bottom_right ul li {
+    border-bottom: 1px solid #383836;
+    padding: 5px 0;
+}
+
+.hero_bottom_right ul li:last-child {
+    border: none;
+}
+
+.hero_right_title h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+.hero_right_title {
+    padding-bottom: 80px;
+}
+
+.hero_company_logo {
+    text-align: center;
+}
+
+.hero_company_logo ul li, .hero_work_logo ul li {
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 0 15px;
+}
+.hero_company_logo ul li img, .hero_work_logo ul li img {
+    width: 50px;
+}
+.to {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    padding: 50px 0;
+}
+.subscribe_form {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.subscribe_form input[type="email"] {
+    width: 60%;
+    border: none;
+    height: 50px;
+    padding: 10px;
+    outline-style: none;
+}
+.subscribe_form input[type="submit"] {
+    width: 20%;
+    height: 50px;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+}
+/*=============
+contact css
+==============*/
+.contact_section {
+    padding: 50px 0;
+}
+
+.contact_info_item h4 {
+    margin: 0;
+}
+
+.contact_info_item {
+    margin-bottom: 30px;
+}
+
+.contact_social_media ul li a {
+    color: #000;
+    padding-bottom: 10px;
+    display: block;
+    font-weight: 600;
+}
+
+.contact_social_media {
+    text-align: right;
+}
+
+.contact_social_media ul li a:hover {
+    color: #fe481c;
+}
+
+/*=============
+project css
+==============*/
+.project_single_item {
+	overflow: hidden;
+-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.bg-1 {
+	background: url(../img/project/Email-Template.png);
+}
+.bg-2 {
+	background: url(../img/project/traffic.png);
+}
+.bg-3 {
+	background: url(../img/project/telebank.png);
+}
+.bg-4 {
+    background: url(../img/project/ATC-six-landing-page.png);
+}
+.bg-5 {
+	background: url(../img/project/trusstedd.png);
+}
+.bg-6 {
+	background: url(../img/project/corsoklooster-nl.png);
+}
+
+.portfolio_site_img {
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 28rem;
+	-webkit-transition: all 5s linear;
+	-o-transition: all 5s linear;
+	transition: all 5s linear;
+}
+
+.project_single_item:hover .portfolio_site_img {
+	background-position: bottom;
+}
+.project_inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project_single_item {
+    width: 49%;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.portfolio_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.portfolio_site_desc p {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}

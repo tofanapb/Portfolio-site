@@ -1,0 +1,91 @@
+/*Large screen*/
+
+@media only screen and (max-width: 1199px) {
+    .hero_area_Top_item h1 {
+        font-size: 38px;
+    }
+    .hero_bottom_left h4 {
+        font-size: 22px;
+    }
+    .hero_company_logo ul li, .hero_work_logo ul li {
+        padding: 0 9px;
+    }
+    .project_single_item {
+        width: 48%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main_menu ul li {
+        padding: 0 6px;
+    }
+    .hero_bottom_right ul li {
+        font-size: 14px;
+    }
+    .subscribe_form input[type="submit"] {
+        width: 36%;
+    }
+    .portfolio_site_desc p {
+        font-size: 12px;
+    }
+    .portfolio_site_link a {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
+
+/* Mobile Layout */
+
+@media only screen and (max-width: 767px) {
+    .logo a h2, .header_right, .main_menu, .hero_work_logo, .subscribe_form {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .hero_wrapper {
+        flex-direction: column;
+    }
+    
+    .hero_left_content, .hero_right {
+        width: 100%;
+    }
+    .about_section .row {
+        flex-direction: column-reverse;
+        padding-top: 50px;
+    }
+    .contact_social_media {
+        text-align: left;
+    }
+    .project_inner {
+        flex-direction: column;
+    }
+    
+    .project_single_item {
+        width: 100%;
+    }
+    .portfolio_site_desc p {
+        font-size: 14px;
+    }
+    .portfolio_site_link a {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
+
+/* small scren*/
+
+@media only screen and (max-width: 575px) {
+    .hero_right {
+        padding: 20px;
+    }
+    .subscribe_form input[type="submit"] {
+        width: 30%;
+    }
+    .main_menu ul li {
+        padding: 0 5px;
+    }
+    .hero_area_Top_item p {
+        padding-right: 85px;
+    }
+}
